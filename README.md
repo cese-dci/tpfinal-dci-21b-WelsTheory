@@ -1,9 +1,9 @@
 ## Trabajo pr√°ctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo pr√°ctico final para la asignatura de Dise√±o de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* T√≠tulo corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripci√≥n:  XXXXCOMPLETARXXXX
+* Autor: William's Ernesto Limonchi Sandoval
+* T√≠tulo corto del trabajo: MÛdulo para STM32
+* Descripci√≥n:  MÛdulo detector de caÌdas para N˙cleo STM32
 
 
 ## Licencia de este trabajo ##
