@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Ing. Williams Ernesto Limonchi Sandoval"
+Title "Módulo Detector de Caídas para STM32"
 Date "2021-07-02"
 Rev "V1.0"
-Comp "Módulo Detector de Caídas para STM32"
+Comp "Ing. William's Ernesto Limonchi Sandoval"
 Comment1 "Basado en: https://bit.ly/37dJ0iX"
 Comment2 "Revisor 1: Ing. German Cardozo"
 Comment3 "Revisor 2: Mg. Ing. Diego Bengi"
@@ -69,12 +69,12 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 6112A276
-P 1350 2450
-F 0 "#PWR01" H 1350 2200 50  0001 C CNN
-F 1 "GND" H 1355 2277 50  0000 C CNN
-F 2 "" H 1350 2450 50  0001 C CNN
-F 3 "" H 1350 2450 50  0001 C CNN
-	1    1350 2450
+P 1200 2450
+F 0 "#PWR01" H 1200 2200 50  0001 C CNN
+F 1 "GND" H 1205 2277 50  0000 C CNN
+F 2 "" H 1200 2450 50  0001 C CNN
+F 3 "" H 1200 2450 50  0001 C CNN
+	1    1200 2450
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -679,10 +679,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 2500 1700 2500
 Wire Wire Line
-	1900 2300 1350 2300
-Wire Wire Line
-	1350 2300 1350 2450
-Wire Wire Line
 	2600 1400 2400 1400
 Wire Wire Line
 	2600 1500 2400 1500
@@ -726,10 +722,10 @@ F 3 "~" H 2150 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SD_Card:SD_Card_P U3
+L SD_Card:SD_Card_P J5
 U 1 1 611439E4
 P 9300 5400
-F 0 "U3" H 10378 5223 79  0000 L CNN
+F 0 "J5" H 10378 5223 79  0000 L CNN
 F 1 "SD_Card_P" H 10378 5088 79  0000 L CNN
 F 2 "TP_Footprints:SD_CARD_P" H 9600 5700 79  0001 C CNN
 F 3 "" H 9600 5700 79  0001 C CNN
@@ -929,7 +925,7 @@ U 1 1 610EE176
 P 9800 4000
 F 0 "U4" H 9570 4046 50  0000 R CNN
 F 1 "DS18B20" H 9570 3955 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8800 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8800 3750 50  0001 C CNN
 F 3 "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 9650 4250 50  0001 C CNN
 	1    9800 4000
 	-1   0    0    -1  
@@ -981,92 +977,36 @@ $EndComp
 Wire Wire Line
 	10000 1300 10000 1200
 $Comp
-L power:VCC #PWR0105
-U 1 1 614AFDC9
-P 4750 4450
-F 0 "#PWR0105" H 4750 4300 50  0001 C CNN
-F 1 "VCC" H 4765 4623 50  0000 C CNN
-F 2 "" H 4750 4450 50  0001 C CNN
-F 3 "" H 4750 4450 50  0001 C CNN
-	1    4750 4450
-	1    0    0    -1  
-$EndComp
-Text Label 2600 2100 0    47   ~ 0
-3.3V_STM32
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 614B99E2
-P 5050 4450
-F 0 "#FLG0101" H 5050 4525 50  0001 C CNN
-F 1 "PWR_FLAG" H 5050 4600 50  0000 C CNN
-F 2 "" H 5050 4450 50  0001 C CNN
-F 3 "~" H 5050 4450 50  0001 C CNN
-	1    5050 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 614E42FA
-P 3300 2400
-F 0 "#PWR0106" H 3300 2150 50  0001 C CNN
-F 1 "GND" H 3305 2227 50  0000 C CNN
-F 2 "" H 3300 2400 50  0001 C CNN
-F 3 "" H 3300 2400 50  0001 C CNN
-	1    3300 2400
+P 3200 2450
+F 0 "#PWR0106" H 3200 2200 50  0001 C CNN
+F 1 "GND" H 3205 2277 50  0000 C CNN
+F 2 "" H 3200 2450 50  0001 C CNN
+F 3 "" H 3200 2450 50  0001 C CNN
+	1    3200 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 614ED268
-P 3300 2300
-F 0 "#FLG0102" H 3300 2375 50  0001 C CNN
-F 1 "PWR_FLAG" H 3300 2450 50  0000 C CNN
-F 2 "" H 3300 2300 50  0001 C CNN
-F 3 "~" H 3300 2300 50  0001 C CNN
-	1    3300 2300
+P 1200 2250
+F 0 "#FLG0102" H 1200 2325 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 2400 50  0000 C CNN
+F 2 "" H 1200 2250 50  0001 C CNN
+F 3 "~" H 1200 2250 50  0001 C CNN
+	1    1200 2250
 	1    0    0    -1  
 $EndComp
-Text Label 4650 4650 2    79   ~ 0
-3.3V_STM32
-Wire Wire Line
-	4750 4450 4900 4450
-Wire Wire Line
-	4650 4650 4900 4650
-Wire Wire Line
-	4900 4650 4900 4450
-Connection ~ 4900 4450
-Wire Wire Line
-	4900 4450 5050 4450
-Wire Notes Line
-	5300 4000 5300 4950
 Wire Wire Line
 	2850 2300 2850 2350
-Wire Wire Line
-	3300 2350 2850 2350
 Connection ~ 2850 2350
 Wire Wire Line
 	2850 2350 2850 2400
-Wire Wire Line
-	3300 2350 3300 2300
-Wire Wire Line
-	3300 2400 3300 2350
-Connection ~ 3300 2350
-Text Notes 4500 4200 2    59   ~ 0
+Text Notes 3650 2250 2    59   ~ 0
 PWR_FLAG VCC
-Text Notes 3650 3150 2    59   ~ 0
-PWR_FLAG GND
-Wire Notes Line
-	3300 3200 3700 3200
-Wire Notes Line
-	3700 3200 3700 3000
-Wire Notes Line
-	3700 3000 3500 3000
-Wire Notes Line
-	3500 3000 3500 2350
-Wire Notes Line
-	3500 2350 3400 2350
-Wire Wire Line
-	2600 2100 2400 2100
+Text Notes 650  2400 0    59   ~ 0
+PWR_FLAG \nGND
 Wire Notes Line
 	6500 3800 6850 3800
 Wire Notes Line
@@ -1084,45 +1024,89 @@ Wire Notes Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61586865
-P 5500 4250
-F 0 "H1" H 5600 4296 50  0000 L CNN
-F 1 "MountingHole" H 5600 4205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5500 4250 50  0001 C CNN
-F 3 "~" H 5500 4250 50  0001 C CNN
-	1    5500 4250
+P 4750 4250
+F 0 "H1" H 4850 4296 50  0000 L CNN
+F 1 "MountingHole" H 4850 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4750 4250 50  0001 C CNN
+F 3 "~" H 4750 4250 50  0001 C CNN
+	1    4750 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 615876E8
-P 6300 4250
-F 0 "H3" H 6400 4296 50  0000 L CNN
-F 1 "MountingHole" H 6400 4205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6300 4250 50  0001 C CNN
-F 3 "~" H 6300 4250 50  0001 C CNN
-	1    6300 4250
+P 5550 4250
+F 0 "H3" H 5650 4296 50  0000 L CNN
+F 1 "MountingHole" H 5650 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5550 4250 50  0001 C CNN
+F 3 "~" H 5550 4250 50  0001 C CNN
+	1    5550 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 61587E15
-P 5500 4650
-F 0 "H2" H 5600 4696 50  0000 L CNN
-F 1 "MountingHole" H 5600 4605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5500 4650 50  0001 C CNN
-F 3 "~" H 5500 4650 50  0001 C CNN
-	1    5500 4650
+P 4750 4650
+F 0 "H2" H 4850 4696 50  0000 L CNN
+F 1 "MountingHole" H 4850 4605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4750 4650 50  0001 C CNN
+F 3 "~" H 4750 4650 50  0001 C CNN
+	1    4750 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 61588339
-P 6300 4650
-F 0 "H4" H 6400 4696 50  0000 L CNN
-F 1 "MountingHole" H 6400 4605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6300 4650 50  0001 C CNN
-F 3 "~" H 6300 4650 50  0001 C CNN
-	1    6300 4650
+P 5550 4650
+F 0 "H4" H 5650 4696 50  0000 L CNN
+F 1 "MountingHole" H 5650 4605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5550 4650 50  0001 C CNN
+F 3 "~" H 5550 4650 50  0001 C CNN
+	1    5550 4650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3200 2450 3200 2350
+Wire Wire Line
+	3200 2350 2850 2350
+Wire Wire Line
+	3100 2100 3100 1950
+Wire Wire Line
+	2400 2100 3100 2100
+$Comp
+L power:VCC #PWR0105
+U 1 1 611720F7
+P 3100 1950
+F 0 "#PWR0105" H 3100 1800 50  0001 C CNN
+F 1 "VCC" H 3115 2123 50  0000 C CNN
+F 2 "" H 3100 1950 50  0001 C CNN
+F 3 "" H 3100 1950 50  0001 C CNN
+	1    3100 1950
+	1    0    0    -1  
+$EndComp
+Text Notes 3050 1700 0    79   ~ 0
+VCC 3.3v
+Wire Wire Line
+	1200 2250 1200 2300
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61183451
+P 3400 2050
+F 0 "#FLG0101" H 3400 2125 50  0001 C CNN
+F 1 "PWR_FLAG" H 3400 2200 50  0000 C CNN
+F 2 "" H 3400 2050 50  0001 C CNN
+F 3 "~" H 3400 2050 50  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2050 3400 2100
+Wire Wire Line
+	3400 2100 3100 2100
+Connection ~ 3100 2100
+Wire Wire Line
+	1200 2300 1900 2300
+Wire Wire Line
+	1200 2450 1200 2300
+Connection ~ 1200 2300
 $EndSCHEMATC

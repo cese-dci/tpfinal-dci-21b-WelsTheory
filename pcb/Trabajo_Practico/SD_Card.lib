@@ -3,8 +3,8 @@ EESchema-LIBRARY Version 2.4
 #
 # SD_Card_P
 #
-DEF SD_Card_P U 0 40 Y Y 1 F N
-F0 "U" 850 -750 79 H V C CNN
+DEF SD_Card_P J 0 40 Y Y 1 F N
+F0 "J" 850 -750 79 H V C CNN
 F1 "SD_Card_P" 350 -750 79 H V C CNN
 F2 "" 750 350 79 V I C CNN
 F3 "" 750 350 79 V I C CNN
