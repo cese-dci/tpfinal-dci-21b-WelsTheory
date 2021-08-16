@@ -1,37 +1,40 @@
-## Trabajo pr√°ctico final de la asignatura DCI ##
-Este repositorio contiene el trabajo pr√°ctico final para la asignatura de Dise√±o de Circuitos Impresos de la carrera de posgrado de FIUBA.
+## Trabajo pr·ctico final de la asignatura DCI ##
+Este repositorio contiene el trabajo pr·ctico final para la asignatura de DiseÒo de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
 * Autor: William's Ernesto Limonchi Sandoval
-* T√≠tulo corto del trabajo: MÛdulo para STM32
-* Descripci√≥n:  MÛdulo detector de caÌdas para N˙cleo STM32
+* TÌ≠tulo corto del trabajo: MÛdulo para STM32
+* DescripciÛn:  MÛdulo detector de caÌdas para N˙cleo STM32
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR AC√Å LA LICENCIAXXX (Editar este p√°rrafo) 
-Y adem√°s colcar el archivo de texto de la misma en el directorio ra√≠z.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la secci√≥n "What license should I use?": https://www.oshwa.org/faq/
+Este producto es de cÛdigo abierto !
+
+El hardware es liberado bajo [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Puede utilizar, reutilizar y modificar el proyecto como mejor le parezca. Mantenga la atribuciÛn a Wels Theory
+
+Saludos
 
 ## Estructura del TP FINAL ##
 
 Se propone y se pide utilizar la siguiente estructura.
 
-* doc: Toda la informaci√≥n sobre el circuito, principalmente de autor√≠a o procesamiento propio. Por ejemplo:
-  * Notas de ingenier√≠a propias.
-  * Notas de aplicaci√≥n propias.
+* doc: Toda la informaciÛn sobre el circuito, principalmente de autorÌ≠a o procesamiento propio. Por ejemplo:
+  * Notas de ingenierÌa propias.
+  * Notas de aplicaciÛn propias.
   * Estudios previos, estado del arte, resumen de las investigaciones.
-  * Notas con c√°lculos.
+  * Notas con c·lculos.
   * Dibujos adicionales.
   * Fotos de los prototipos.
   * Presupuestos, cotizaciones.
-* info: Toda la iformaci√≥n recolectada, principalmente de terceros, como por ejemplo:
+* info: Toda la informaciÛn recolectada, principalmente de terceros, como por ejemplo:
   * Hojas de datos.
-  * Notas de aplicaci√≥n.
+  * Notas de aplicaciÛn.
   * Info de productos comerciales.
   * Info en internet.
-* pcb: Archivos de dise√±o esquem√°tico y pcb.
+* pcb: Archivos de diseÒo esquem·tico y pcb.
 
-Dependiendo la magnitud del proyecto, tendremos m√°s o menos informaci√≥n en estos directorios. 
+Dependiendo la magnitud del proyecto, tendremos m·s o menos informaciÛn en estos directorios. 
 Revisar los README.md en cada directorio para conocer las pautas de cada uno para este TP.
 
 NOTA: El alumno puede y debe borrar de este archivo todo lo que considere necesario, por ejemplo las aclaraciones del docente y esta misma nota.
