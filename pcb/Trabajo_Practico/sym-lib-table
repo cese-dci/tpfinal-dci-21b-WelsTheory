@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name SD_Card)(type Legacy)(uri ${KIPRJMOD}/SD_Card.lib)(options "")(descr ""))
-  (lib (name max30102)(type Legacy)(uri C:/Users/Wels/Documents/Especializacion/Bimestre4/PCB/tpfinal-dci-21b-WelsTheory/pcb/TP_Symbols/max30102.lib)(options "")(descr ""))
+  (lib (name Trabajo_Practico-rescue)(type Legacy)(uri ${KIPRJMOD}/Trabajo_Practico-rescue.lib)(options "")(descr ""))
 )
